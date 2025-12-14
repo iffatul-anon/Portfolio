@@ -377,7 +377,7 @@ ul { padding: 0; margin: 0; list-style: none; }
 }
 
 .project-links { display: flex; gap: 12px; }
-.project-links a { color: var(--accent); font-weight: 600; }
+.project-links a { color: var(--accent-2); font-weight: 600; }
 
 /* Timeline (Experience, Volunteering) */
 .timeline {
@@ -444,6 +444,17 @@ ul { padding: 0; margin: 0; list-style: none; }
 	display: flex;
 	justify-content: space-between;
 	gap: 12px;
+}
+
+.achievement-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.achievement-links a {
+	color: var(--accent-2);
+	font-weight: 600;
 }
 
 .achievement-meta { color: var(--muted); display: grid; text-align: right; gap: 4px; }
@@ -539,7 +550,7 @@ ul { padding: 0; margin: 0; list-style: none; }
 }
 
 .social-links { display: grid; gap: 8px; }
-.social-links a { color: var(--accent); font-weight: 600; }
+.social-links a { color: var(--accent-2); font-weight: 600; }
 
 .contact-card {
 	border-radius: var(--radius-sm);
